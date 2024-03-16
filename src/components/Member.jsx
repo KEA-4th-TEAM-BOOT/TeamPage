@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import { memberText } from "../constants";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const Main = () => {
+const Member = () => {
     const horizontalRef = useRef(null);
     const sectionRef = useRef([]);
 
@@ -41,29 +42,29 @@ const Main = () => {
                 </h2>
                 <div className="member__wrap">
                     {memberText.map((port, key) => (
-                        <article 
-                            className={`member__item p${key+1}`} 
+                        <article
+                            className={`member__item p${key + 1}`}
                             key={key}
                             ref={(el) => (sectionRef.current[key] = el)}
                         >
                             <span className="num">{port.num}.</span>
-                            <a 
-                                href={port.code} 
-                                target="_blank" 
-                                className="img" 
+                            <a
+                                href={port.code}
+                                target="_blank"
+                                className="img"
                                 rel="noreferrer noopener"
                             >
                                 <img src={port.img} alt={port.name} />
                             </a>
                             <h3 className="title">{port.title}</h3>
                             <p className="role">{port.role}</p>
-                            <a 
-                                href={port.view} 
-                                target="_blank" 
-                                className="site" 
+                            <Link
+                                to="/team" // 이 경로는 TeamPage 컴포넌트에 대한 경로와 일치해야 함
+                                className="site"
                                 rel="noreferrer noopener"
                             >
-                                사이트 보기</a>
+                                사이트 보기
+                            </Link>
                         </article>
                     ))}
                 </div>
@@ -72,4 +73,4 @@ const Main = () => {
     )
 };
 
-export default Main;
+export default Member;
