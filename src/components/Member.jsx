@@ -51,6 +51,7 @@ const Member = () => {
                         >
                             <span className="num">{member.num}.</span>
                             <a
+                                href={member.code}
                                 target="_blank"
                                 className="img"
                                 rel="noreferrer noopener"
