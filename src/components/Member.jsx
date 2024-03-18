@@ -43,25 +43,24 @@ const Member = () => {
                     Member
                 </h2>
                 <div className="member__wrap">
-                    {memberText.map((port, key) => (
+                    {memberText.map((member, key) => (
                         <article
                             className={`member__item p${key + 1}`}
                             key={key}
                             ref={(el) => (sectionRef.current[key] = el)}
                         >
-                            <span className="num">{port.num}.</span>
+                            <span className="num">{member.num}.</span>
                             <a
-                                href={port.code}
                                 target="_blank"
                                 className="img"
                                 rel="noreferrer noopener"
                             >
                                 <div className="bg-white rounded-3xl aspect-square min-h-[269px] flex justify-center items-center" >
-                                <img src={port.img} alt={port.name} className="w-[300px] h-[300px]"  />
+                                <img src={member.img} alt={member.name} className="w-[300px] h-[300px]"  />
                                 </div>
                             </a>
-                            <h3 className="title">{port.title}</h3>
-                            <p className="role">{port.role}</p>
+                            <h3 className="title">{member.title}</h3>
+                            <p className="role">{member.role}</p>
                             <Link
                                to={teamPaths[key]}
                                 className="site"
