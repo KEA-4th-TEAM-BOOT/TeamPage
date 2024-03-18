@@ -56,7 +56,9 @@ const Member = () => {
                                 className="img"
                                 rel="noreferrer noopener"
                             >
-                                <img src={port.img} alt={port.name} />
+                                <div className="bg-white rounded-3xl aspect-square min-h-[269px] flex justify-center items-center" >
+                                <img src={port.img} alt={port.name} className="w-[300px] h-[300px]"  />
+                                </div>
                             </a>
                             <h3 className="title">{port.title}</h3>
                             <p className="role">{port.role}</p>

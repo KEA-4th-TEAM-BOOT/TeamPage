@@ -13,14 +13,7 @@ function App() {
     link();
   }, []);
 
-  const teamMembers = [
-    {
-      firstName: "John",
-      lastName: "Doe",
-      skills: ["JavaScript", "React", "Node.js"],
-      school: "Harvard University"
-    },
-  ];
+  
   return (
     <Router>
       <Routes>
