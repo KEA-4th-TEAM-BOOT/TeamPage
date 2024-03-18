@@ -9,7 +9,7 @@ const Skill = () => {
             </div>
         </div>
         <div className="justify-center self-start px-4 py-2.5 mt-5 text-sm font-bold text-white bg-blue-400 rounded-[104.928px]">
-          FRONT
+          LANGUAGE
         </div>
         <div className="flex gap-5 mt-3.5 text-2xl">
           <div>NodeJS</div>
@@ -17,7 +17,7 @@ const Skill = () => {
           <div>Go</div>
         </div>
         <div className="justify-center self-start px-4 py-2.5 mt-5 text-sm font-bold text-white bg-blue-400 rounded-[104.928px]">
-          BACK
+          FRAMEWORK
         </div>
         <div className="flex gap-5 mt-3.5 text-2xl">
           <div>NodeJS</div>

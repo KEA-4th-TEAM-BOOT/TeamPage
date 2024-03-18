@@ -25,7 +25,7 @@ const Personal = ({person}) => {
           href={person.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex gap-3.5 px-6 py-1 bg-blue-300 shadow-lg rounded-[104.928px] max-md:flex-wrap max-md:px-5"
+          className="flex gap-3.5 px-4 py-1 bg-blue-300 shadow-lg rounded-[104.928px] max-md:flex-wrap max-md:px-5"
         >
           <img
             loading="lazy"

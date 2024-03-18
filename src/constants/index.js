@@ -84,13 +84,13 @@ export const personData = [
      
     {
         id: "seung",
-        firstName: "Jung",
-        lastName: "Gyuwon",
+        firstName: "Lee",
+        lastName: "Seung Won",
         dev: "Back-End dev",
         img: "",
-        email: "",
-        github: "",
-        major: "Harvard University",
+        email: "sw7934@gmail.com",
+        github: "https://github.com/seungwon7934",
+        major: "Dept.Software",
         frontSkills: "",
         backSkills: "",
         dataSkills: "",
