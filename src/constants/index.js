@@ -49,3 +49,96 @@ export const memberText = [
         view: "https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html",
     },
 ];
+
+export const personData = [
+    
+    {
+        id: "moon",
+        firstName: "Jung",
+        lastName: "Gyuwon",
+        dev: "Back-End dev",
+        img: "",
+        email: "",
+        github: "",
+        major: "Harvard University",
+        frontSkills: "",
+        backSkills: "",
+        dataSkills: "",
+
+    },
+     
+    {
+        id: "song",
+        firstName: "Jung",
+        lastName: "Gyuwon",
+        dev: "Back-End dev",
+        img: "",
+        email: "",
+        github: "",
+        major: "Harvard University",
+        frontSkills: "",
+        backSkills: "",
+        dataSkills: "",
+
+    },
+     
+    {
+        id: "seung",
+        firstName: "Jung",
+        lastName: "Gyuwon",
+        dev: "Back-End dev",
+        img: "",
+        email: "",
+        github: "",
+        major: "Harvard University",
+        frontSkills: "",
+        backSkills: "",
+        dataSkills: "",
+
+    },
+     
+    {
+        id: "seul",
+        firstName: "Jung",
+        lastName: "Gyuwon",
+        dev: "Back-End dev",
+        img: "",
+        email: "",
+        github: "",
+        major: "Harvard University",
+        frontSkills: "",
+        backSkills: "",
+        dataSkills: "",
+
+    },
+     
+    {
+        id: "gyu",
+        firstName: "Jung",
+        lastName: "Gyuwon",
+        dev: "Back-End dev",
+        img: "",
+        email: "licmm0520@gmail.com",
+        github: "https://github.com/Gyuwon-Jung",
+        major: "Dept.Software",
+        frontSkills: "",
+        backSkills: "",
+        dataSkills: "",
+
+    },
+     
+    {
+        id: "seong",
+        firstName: "Jung",
+        lastName: "Gyuwon",
+        dev: "Back-End dev",
+        img: "",
+        email: "",
+        github: "",
+        major: "Harvard University",
+        frontSkills: "",
+        backSkills: "",
+        dataSkills: "",
+
+    },
+];

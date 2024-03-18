@@ -5,6 +5,7 @@ import View from "./components/View";
 import lenis from "./utils/lenis";
 import link from "./utils/link";
 import TeamPage from "./components/TeamPage";
+import { personData } from "./constants";
 
 function App() {
   useEffect(() => {
@@ -12,11 +13,25 @@ function App() {
     link();
   }, []);
 
+  const teamMembers = [
+    {
+      firstName: "John",
+      lastName: "Doe",
+      skills: ["JavaScript", "React", "Node.js"],
+      school: "Harvard University"
+    },
+  ];
   return (
     <Router>
       <Routes>
         <Route path="/" element={<View />} />
-        <Route path="/team" element={<TeamPage />} /> // 경로는 예시, 필요에 맞게 조정
+        {personData.map((person) => (
+          <Route
+            key={person.id}
+            path={`/${person.id}`}
+            element={<TeamPage person={person} />}
+          />
+        ))}
       </Routes>
     </Router>
   );

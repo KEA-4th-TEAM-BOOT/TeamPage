@@ -34,6 +34,8 @@ const Member = () => {
         };
     }, []);
 
+    const teamPaths = ['/moon', '/song', '/seung', '/seul', '/gyu', '/seong']
+
     return (
         <section id="member" ref={horizontalRef}>
             <div className="member__inner">
@@ -59,7 +61,7 @@ const Member = () => {
                             <h3 className="title">{port.title}</h3>
                             <p className="role">{port.role}</p>
                             <Link
-                                to="/team" // 이 경로는 TeamPage 컴포넌트에 대한 경로와 일치해야 함
+                               to={teamPaths[key]}
                                 className="site"
                                 rel="noreferrer noopener"
                             >
