@@ -135,7 +135,7 @@ export const personData = [
         img: seongjoon,
         email: "joooonn522@gmail.com",
         github: "https://github.com/JoonJun-e",
-        major: "Dept.",
+        major: "Dept.Industrial Engineering",
         language: ["Java", "Python"],
         framework: ["Springboot", "Flask"],
         database: ["MongoDB", "MYSQL"],
