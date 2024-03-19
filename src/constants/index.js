@@ -1,7 +1,7 @@
-import member01 from "../assets/img/member1.png";
-import member02 from "../assets/img/member2.png";
-import member03 from "../assets/img/member3.png";
-import member04 from "../assets/img/member4.png";
+import heesang from "../assets/img/heesang.png"
+import minji from "../assets/img/minji.png";
+import seungwon from "../assets/img/seungwon.png";
+import hanseul from "../assets/img/hanseul.png"
 import seongjoon from "../assets/img/seongjoon.png";
 import gyuwon from "../assets/img/gyuwon.png"
 
@@ -10,28 +10,28 @@ export const memberText = [
         num: "01",
         title: "Moon Hee Sang",
         role: "DevOps Engineer",
-        img: member01,
+        img: heesang,
     },
 
     {
         num: "02",
         title: "Song Min Ji",
         role: "Front-End Developer",
-        img: member02,
+        img: minji,
     },
 
     {
         num: "03",
         title: "Lee Seung Won",
         role: "Back-End Developer",
-        img: member03,
+        img: seungwon,
     },
 
     {
         num: "04",
         title: "Lee Han Seul",
         role: "Back-End Developer",
-        img: member04,
+        img: hanseul,
     },
 
     {
@@ -44,7 +44,7 @@ export const memberText = [
     {
         num: "06",
         title: "Choi Seong Joon",
-        role: "Back-End Developer",
+        role: "DevOps Engineer",
         img: seongjoon,
     },
 
@@ -57,9 +57,9 @@ export const personData = [
         firstName: "Moon",
         lastName: "Hee Sang",
         dev: "DevOps Eng",
-        img: "",
+        img: heesang,
         email: "munyo17@gachon.ac.kr",
-        github: "",
+        github: "https://github.com/codrin2",
         major: "Dept.Software",
         language: ["Java", "Python", "C"],
         framework: ["Springboot"],
@@ -72,13 +72,13 @@ export const personData = [
         firstName: "Song",
         lastName: "Min Ji",
         dev: "Front-End dev",
-        img: "",
-        email: "",
-        github: "",
+        img: minji,
+        email: "starr075@gmail.com",
+        github: "https://github.com/7SongMinJi",
         major: "Dept.Software",
         language: ["C", "Java", "Python"],
-        framework: ["Springboot", "Flask"],
-        database: ["H2", "MYSQL"],
+        framework: ["Android Studio"],
+        database: ["MYSQL"],
 
     },
      
@@ -87,7 +87,7 @@ export const personData = [
         firstName: "Lee",
         lastName: "Seung Won",
         dev: "Back-End dev",
-        img: "",
+        img: seungwon,
         email: "sw7934@gmail.com",
         github: "https://github.com/seungwon7934",
         major: "Dept.Software",
@@ -102,13 +102,13 @@ export const personData = [
         firstName: "Lee",
         lastName: "Han Seul",
         dev: "Back-End dev",
-        img: "",
-        email: "",
-        github: "",
+        img: hanseul,
+        email: "hanseul37@gachon.ac.kr",
+        github: "https://github.com/hanseul37",
         major: "Dept.Software",
-        language: ["C", "Java", "Python"],
-        framework: ["Springboot", "Flask"],
-        database: ["H2", "MYSQL"],
+        language: ["Typescript", "Python", "Go"],
+        framework: ["NestJS", "FastAPI"],
+        database: ["MYSQL", "MongoDB", "Redis"],
 
     },
      
@@ -116,7 +116,7 @@ export const personData = [
         id: "gyu",
         firstName: "Jung",
         lastName: "Gyu Won",
-        dev: "Back-End dev",
+        dev: "Front-End dev",
         img: gyuwon,
         email: "licmm0520@gmail.com",
         github: "https://github.com/Gyuwon-Jung",
@@ -131,14 +131,14 @@ export const personData = [
         id: "seong",
         firstName: "Choi",
         lastName: "Seong Joon",
-        dev: "Back-End dev",
+        dev: "DevOps Eng",
         img: seongjoon,
         email: "joooonn522@gmail.com",
         github: "https://github.com/JoonJun-e",
         major: "Dept.",
-        language: ["C", "Java", "Python"],
+        language: ["Java", "Python"],
         framework: ["Springboot", "Flask"],
-        database: ["H2", "MYSQL"],
+        database: ["MongoDB", "MYSQL"],
 
     },
 ];
